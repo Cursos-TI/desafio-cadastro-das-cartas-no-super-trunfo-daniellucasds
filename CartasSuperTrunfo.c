@@ -3,12 +3,12 @@
 int main() {
 
 // Variáveis para Carta 1
-    char Estado1[3], cod_carta1[10], Nome_cidade1[35];
+    char Estado1[2], cod_carta1[10], Nome_cidade1[35];
     int populacao1, turisticos1;
     float area1, pib1;
 
 // Variáveis para Carta 2
-    char Estado2[3], cod_carta2[10], Nome_cidade2[35];
+    char Estado2[2], cod_carta2[10], Nome_cidade2[35];
     int populacao2, turisticos2;
     float area2, pib2;
 
