@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 int main() {
+
     // Variáveis para Carta 1
     char Estado1[3], cod_carta1[10], Nome_cidade1[35];
     int populacao1, turisticos1;
     float area1, pib1;
 
-    // Variáveis para Carta 2
+// Variáveis para Carta 2
     char Estado2[3], cod_carta2[10], Nome_cidade2[35];
     int populacao2, turisticos2;
     float area2, pib2;
 
-    // Coleta de dados para Carta 1
+// Coleta de dados para Carta 1
     printf("Carta 1:\n");
     printf("Digite o estado: ");
     scanf("%s", Estado1);
@@ -34,7 +35,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &turisticos1);
 
-    // Coleta de dados para Carta 2
+// Coleta de dados para Carta 2
     printf("\nCarta 2:\n");
     printf("Digite o estado: ");
     scanf("%s", Estado2);
