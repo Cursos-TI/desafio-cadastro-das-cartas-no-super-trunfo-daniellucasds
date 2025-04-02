@@ -2,7 +2,7 @@
 
 int main() {
 
-    // Variáveis para Carta 1
+// Variáveis para Carta 1
     char Estado1[3], cod_carta1[10], Nome_cidade1[35];
     int populacao1, turisticos1;
     float area1, pib1;
@@ -58,7 +58,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &turisticos2);
 
-    // Impressão dos dados
+// Impressão dos dados
     printf("\nCarta 1:\n");
     printf("Estado: %s\n", Estado1);
     printf("Código: %s\n", cod_carta1);
